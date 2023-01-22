@@ -1,5 +1,6 @@
-import './App.css';
+import React from 'react';
+import Scoreboard from './components/Scoreboard/Scoreboard';
 
-function App() {}
-
-export default App;
+export default function App() {
+  return <Scoreboard />;
+}
