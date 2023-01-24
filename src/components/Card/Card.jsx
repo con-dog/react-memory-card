@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Card({ image, handleClick }) {
+function Card({ image, handleClick }) {
   return (
     <div>
       <button type="button" onClick={handleClick}>

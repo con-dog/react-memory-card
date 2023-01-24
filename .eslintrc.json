@@ -18,12 +18,14 @@
         "react"
     ],
     "rules": {
+        "prefer-const": "off",
         "no-plusplus": 0,
         "no-unused-vars": 0,
         "no-use-before-define": 0,
         "react/jsx-no-bind": 0,
         "max-len": "off",
         "react/prop-types": 0,
+        "react/jsx-props-no-spreading": 0,
         "react/jsx-filename-extension": [
             1,
             {

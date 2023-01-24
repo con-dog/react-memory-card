@@ -48,7 +48,12 @@ export default function Board() {
     return [...array].sort(() => Math.random() - 0.5);
   }
 
+  useEffect(() => {
+    setCards(shuffleArray(cards));
+  }, [cards]);
+
   function handleClick() {
+    // Game logic
     setCards(shuffleArray(cards));
   }
 
